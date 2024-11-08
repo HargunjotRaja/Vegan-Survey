@@ -1,4 +1,4 @@
-/* Basic Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,30 +7,30 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff; /* Light background */
-    color: #000000; /* Dark text color */
+    background-color: #f0f8ff; 
+    color: #000000; 
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
 }
 
-/* Title */
+
 #title {
     font-size: 2.5em;
-    color: #2e8b57; /* Forest green */
+    color: #2e8b57; 
     margin-bottom: 20px;
 }
 
-/* Description */
+
 #description {
     font-size: 1.2em;
-    color: #000000; /* Gray text */
+    color: #000000; 
     margin-bottom: 40px;
     text-align: center;
 }
 
-/* Form Styling */
+
 #survey-form {
     background-color: #ffffff; /* White background for form */
     border-radius: 10px;
@@ -39,7 +39,7 @@ body {
     width: 300px; /* Set a max width */
 }
 
-/* Input Elements */
+
 .input-element {
     margin-bottom: 20px;
 }
@@ -57,7 +57,7 @@ textarea,
 select {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ddd; /* Light border */
+    border: 1px solid #ddd; 
     border-radius: 5px;
     transition: border-color 0.3s;
 }
@@ -67,12 +67,12 @@ input[type="email"]:focus,
 input[type="number"]:focus,
 textarea:focus,
 select:focus {
-    border-color: #2e8b57; /* Change border color on focus */
+    border-color: #2e8b57; 
 }
 
-/* Button Styling */
+
 button {
-    background-color: #2e8b57; /* Forest green */
+    background-color: #2e8b57; 
     color: white;
     border: none;
     padding: 10px 15px;
