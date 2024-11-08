@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegan Survey</title>
+    <link rel="stylesheet" href="survey.css"> 
+</head>
+<body>
+
+<h1 id="title">Vegan Survey</h1>
+<p id="description">Thank you for taking your time to fill this survey out. Your survey really helps us out!</p>
+
+<form id="survey-form">
+  <div class="input-element">
+    <label for="name" id="name-label">Name</label>
+    <input type="text" id="name" placeholder="Enter your name" required />
+  </div>
+
+  <div class="input-element">
+    <label for="email" id="email-label">Email</label>
+    <input type="email" id="email" placeholder="Enter your email" required />
+  </div>
+
+  <div class="input-element">
+    <label for="age" id="age-label">Age</label>
+    <input type="number" id="age" placeholder="Enter your age" min="1" max="100" required />
+  </div>
+
+  <div class="input-element">
+    <label for="dropdown">Are you vegan?</label>
+    <select id="dropdown" name="vegan" required>
+      <option value="" disabled selected>Select an option</option>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+  </div>
+  
+
+  <div class="input-element">
+    <label>How long have you been vegan?</label><br>
+    <input type="radio" id="radio1" name="vegan-duration" value="more-than-a-year">
+    <label for="radio1">More than a year</label><br>
+    <input type="radio" id="radio2" name="vegan-duration" value="six-months">
+    <label for="radio2">It has been six months</label><br>
+    <input type="radio" id="radio3" name="vegan-duration" value="less-than-six-months">
+    <label for="radio3">It has been less than six months</label><br>
+    <input type="radio" id="radio4" name="vegan-duration" value="not-vegan">
+    <label for="radio4">I'm not vegan</label><br>
+  </div>
+
+  <div class="input-element">
+    <label>Select the food groups you consume the most:</label><br>
+    <input type="checkbox" id="checkbox1" name="food-group" value="fruits-veggies">
+    <label for="checkbox1">Fruits/veggies</label><br>
+    <input type="checkbox" id="checkbox2" name="food-group" value="dairy">
+    <label for="checkbox2">Dairy products</label><br>
+    <input type="checkbox" id="checkbox3" name="food-group" value="meat">
+    <label for="checkbox3">Meat products</label><br>
+  </div>
+
+  <div class="input-element">
+    <label for="comments">Anything you'd like to mention</label><br>
+    <textarea id="comments" name="comments" placeholder="Enter your comments"></textarea>
+  </div>
+
+  <button type="submit" id="submit">Submit</button>
+</form>
+
+</body>
+</html>
